@@ -12,7 +12,7 @@ args = parser.parse_args()
 
 def runSystem():
     try:
-        response = urlopen(Request("https://raw.githubusercontent.com/jc6482/List-of-Dirty-Naughty-Obscene-and-Otherwise-Bad-Words/master/en"))
+        response = urlopen(Request("https://raw.githubusercontent.com/LDNOOBW/List-of-Dirty-Naughty-Obscene-and-Otherwise-Bad-Words/master/en"))
         sarcasm = ""
         dirtyWords = string.split(response.read(),"\n")
         if(not args.noSarcasm):
