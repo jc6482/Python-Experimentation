@@ -22,8 +22,6 @@ def runSystem():
         print sarcasm + dirtyWords[random.randint(0,len(dirtyWords))]
     except URLError,e:
             print "An error has occured, check the URL?", e
-    
-
 
 
 runSystem()
