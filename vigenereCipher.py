@@ -6,12 +6,12 @@ import argparse, sys
 parser = argparse.ArgumentParser(description="Encrypts and Decrypt messages based on a keyword")
 parser.add_argument("-D", default="", help="Data to encrypt or decrypt")
 parser.add_argument("-k", default="", help="En/Decryption Key")
-parser.add_argument("-d", action="store_true", help="Decrypt")
-parser.add_argument("-e", action="store_true", help="Encrypt")
+parser.add_argument("-d", default=False,action="store_true", help="Decrypt")
+parser.add_argument("-e", default=False,action="store_true", help="Encrypt")
 
 args = parser.parse_args()
 
-if ((args.d != True and args.e != True) and (args.d == True and args.e == True)):
+if ((args.d != True and args.e != True) or (args.d == True and args.e == True)):
     sys.exit(parser.print_help())
 
 if (args.D == ""):
