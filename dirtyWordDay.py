@@ -1,3 +1,4 @@
+#!/bin/python
 #Juan Carlos Ramirez
 #What do you think this does? Doesn't compliment your mother.
 #Add to your startup script for maximum effect....
