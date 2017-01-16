@@ -2,12 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dfbea7de-28ed-41b4-a23e-4b2f985b0ace" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Images/eyBossCat.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Images/eyBossCat1.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/Python-Experimentation.iml" afterPath="$PROJECT_DIR$/.idea/Python-Experimentation.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/RockPaperScissors.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/basicNeuralNetwork.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dirtyWordDay.py" afterPath="$PROJECT_DIR$/dirtyWordDay.py" />
     </list>
     <ignored path="Python-Experimentation.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -26,7 +23,35 @@
     <favorites_list name="Python-Experimentation" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375" />
+    <leaf>
+      <file leaf-file-name="RockPaperScissors.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/RockPaperScissors.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="561">
+              <caret line="33" column="92" lean-forward="false" selection-start-line="33" selection-start-column="92" selection-end-line="33" selection-end-column="92" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="basicNeuralNetwork.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/basicNeuralNetwork.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-6">
+              <caret line="49" column="5" lean-forward="true" selection-start-line="49" selection-start-column="5" selection-end-line="49" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -42,14 +67,15 @@
         <option value="$PROJECT_DIR$/dirtyWordDay.py" />
         <option value="$PROJECT_DIR$/ddLevelCalculator.py" />
         <option value="$PROJECT_DIR$/dupImageFinder.py" />
+        <option value="$PROJECT_DIR$/basicNeuralNetwork.py" />
+        <option value="$PROJECT_DIR$/RockPaperScissors.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-9" />
-    <option name="y" value="-9" />
-    <option name="width" value="1938" />
-    <option name="height" value="1060" />
+    <option name="x" value="-8" />
+    <option name="width" value="976" />
+    <option name="height" value="1050" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -97,13 +123,13 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/RockPaperScissors.py" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -111,7 +137,7 @@
       <recent name="C:\Users\JuanCarlos\Desktop\Working_On\Code Projects\Python-Experimentation" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.dupImageFinder">
+  <component name="RunManager" selected="Python.RockPaperScissors">
     <configuration default="false" name="dirtyWordDay" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -280,7 +306,7 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
     </configuration>
-    <configuration default="false" name="dupImageFinder" type="PythonConfigurationType" factoryName="Python">
+    <configuration default="false" name="Basic Neural Network" type="PythonConfigurationType" factoryName="Python">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -292,7 +318,24 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="Python-Experimentation" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/dupImageFinder.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/basicNeuralNetwork.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="RockPaperScissors" type="PythonConfigurationType" factoryName="Python">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Python27\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Python-Experimentation" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/RockPaperScissors.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -365,14 +408,15 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
     </configuration>
-    <list size="7">
+    <list size="8">
       <item index="0" class="java.lang.String" itemvalue="Python.MarkovChain" />
-      <item index="1" class="java.lang.String" itemvalue="Python.dupImageFinder" />
-      <item index="2" class="java.lang.String" itemvalue="Python.portScanner" />
-      <item index="3" class="java.lang.String" itemvalue="Python.VCipher" />
-      <item index="4" class="java.lang.String" itemvalue="Python.Character Counter" />
-      <item index="5" class="java.lang.String" itemvalue="Python.spiral" />
-      <item index="6" class="java.lang.String" itemvalue="Python.dirtyWordDay" />
+      <item index="1" class="java.lang.String" itemvalue="Python.Basic Neural Network" />
+      <item index="2" class="java.lang.String" itemvalue="Python.RockPaperScissors" />
+      <item index="3" class="java.lang.String" itemvalue="Python.portScanner" />
+      <item index="4" class="java.lang.String" itemvalue="Python.VCipher" />
+      <item index="5" class="java.lang.String" itemvalue="Python.Character Counter" />
+      <item index="6" class="java.lang.String" itemvalue="Python.spiral" />
+      <item index="7" class="java.lang.String" itemvalue="Python.dirtyWordDay" />
     </list>
     <recent_temporary>
       <list size="1">
@@ -408,19 +452,26 @@
       <option name="project" value="LOCAL" />
       <updated>1478116166569</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Added a D&amp;D Level calculator and some images for testing...">
+      <created>1483473715348</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1483473715348</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-9" y="-9" width="1938" height="1060" extended-state="6" />
+    <frame x="-8" y="0" width="976" height="1050" extended-state="0" />
     <editor active="false" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13645834" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27348644" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33851278" sideWeight="0.39561588" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3261105" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33802816" sideWeight="0.6043841" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33734939" sideWeight="0.6043841" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
@@ -449,37 +500,17 @@
     <MESSAGE value="Started using pycharm for development..." />
     <MESSAGE value="Created a markovChain and portScanner for a challenge" />
     <MESSAGE value="Finished character count~" />
-    <option name="LAST_COMMIT_MESSAGE" value="Finished character count~" />
+    <MESSAGE value="Added a D&amp;D Level calculator and some images for testing..." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added a D&amp;D Level calculator and some images for testing..." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/dupImageFinder.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dupImageFinder.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dupImageFinder.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/dupImageFinder.py" />
+    <entry file="file://$PROJECT_DIR$/dupImageFinder.py" />
+    <entry file="file://$PROJECT_DIR$/dupImageFinder.py" />
     <entry file="file://$PROJECT_DIR$/vigenereCipher.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="629">
@@ -618,10 +649,19 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dupImageFinder.py">
+    <entry file="file://$PROJECT_DIR$/dupImageFinder.py" />
+    <entry file="file://$PROJECT_DIR$/basicNeuralNetwork.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="346">
-          <caret line="53" column="21" lean-forward="false" selection-start-line="53" selection-start-column="21" selection-end-line="53" selection-end-column="21" />
+        <state relative-caret-position="-6">
+          <caret line="49" column="5" lean-forward="true" selection-start-line="49" selection-start-column="5" selection-end-line="49" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RockPaperScissors.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="561">
+          <caret line="33" column="92" lean-forward="false" selection-start-line="33" selection-start-column="92" selection-end-line="33" selection-end-column="92" />
           <folding />
         </state>
       </provider>
