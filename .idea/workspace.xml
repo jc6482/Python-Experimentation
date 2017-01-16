@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dfbea7de-28ed-41b4-a23e-4b2f985b0ace" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/RockPaperScissors.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/basicNeuralNetwork.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/linkCrawler.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Python-Experimentation.iws" />
@@ -24,22 +23,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="RockPaperScissors.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/RockPaperScissors.py">
+      <file leaf-file-name="linkCrawler.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/linkCrawler.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="561">
-              <caret line="33" column="92" lean-forward="false" selection-start-line="33" selection-start-column="92" selection-end-line="33" selection-end-column="92" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="basicNeuralNetwork.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/basicNeuralNetwork.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-6">
-              <caret line="49" column="5" lean-forward="true" selection-start-line="49" selection-start-column="5" selection-end-line="49" selection-end-column="5" />
-              <folding />
+            <state relative-caret-position="170">
+              <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+              <folding>
+                <element signature="e#88#107#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -69,6 +60,7 @@
         <option value="$PROJECT_DIR$/dupImageFinder.py" />
         <option value="$PROJECT_DIR$/basicNeuralNetwork.py" />
         <option value="$PROJECT_DIR$/RockPaperScissors.py" />
+        <option value="$PROJECT_DIR$/linkCrawler.py" />
       </list>
     </option>
   </component>
@@ -129,7 +121,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/RockPaperScissors.py" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/linkCrawler.py" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -137,7 +129,7 @@
       <recent name="C:\Users\JuanCarlos\Desktop\Working_On\Code Projects\Python-Experimentation" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.RockPaperScissors">
+  <component name="RunManager" selected="Python.Link Crawler">
     <configuration default="false" name="dirtyWordDay" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -323,7 +315,7 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
     </configuration>
-    <configuration default="false" name="RockPaperScissors" type="PythonConfigurationType" factoryName="Python">
+    <configuration default="false" name="Link Crawler" type="PythonConfigurationType" factoryName="Python">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -335,8 +327,8 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="Python-Experimentation" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/RockPaperScissors.py" />
-      <option name="PARAMETERS" value="" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/linkCrawler.py" />
+      <option name="PARAMETERS" value="-host http://theoldsystem.mooo.com" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
     </configuration>
@@ -411,7 +403,7 @@
     <list size="8">
       <item index="0" class="java.lang.String" itemvalue="Python.MarkovChain" />
       <item index="1" class="java.lang.String" itemvalue="Python.Basic Neural Network" />
-      <item index="2" class="java.lang.String" itemvalue="Python.RockPaperScissors" />
+      <item index="2" class="java.lang.String" itemvalue="Python.Link Crawler" />
       <item index="3" class="java.lang.String" itemvalue="Python.portScanner" />
       <item index="4" class="java.lang.String" itemvalue="Python.VCipher" />
       <item index="5" class="java.lang.String" itemvalue="Python.Character Counter" />
@@ -459,19 +451,26 @@
       <option name="project" value="LOCAL" />
       <updated>1483473715348</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="I made a basic rock/paper/scissors game and a basic neural network">
+      <created>1484529344014</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1484529344014</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="0" width="976" height="1050" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27348644" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33851278" sideWeight="0.39561588" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3261105" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33734939" sideWeight="0.6043841" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33734939" sideWeight="0.6043841" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
@@ -501,7 +500,8 @@
     <MESSAGE value="Created a markovChain and portScanner for a challenge" />
     <MESSAGE value="Finished character count~" />
     <MESSAGE value="Added a D&amp;D Level calculator and some images for testing..." />
-    <option name="LAST_COMMIT_MESSAGE" value="Added a D&amp;D Level calculator and some images for testing..." />
+    <MESSAGE value="I made a basic rock/paper/scissors game and a basic neural network" />
+    <option name="LAST_COMMIT_MESSAGE" value="I made a basic rock/paper/scissors game and a basic neural network" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -557,20 +557,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/practice1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ircListener.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="13" column="20" lean-forward="false" selection-start-line="13" selection-start-column="20" selection-end-line="13" selection-end-column="20" />
         </state>
       </provider>
     </entry>
@@ -650,6 +636,14 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/dupImageFinder.py" />
+    <entry file="file://$PROJECT_DIR$/RockPaperScissors.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="14" lean-forward="true" selection-start-line="21" selection-start-column="14" selection-end-line="21" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/basicNeuralNetwork.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-6">
@@ -658,11 +652,41 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/RockPaperScissors.py">
+    <entry file="file://$PROJECT_DIR$/ircListener.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="561">
-          <caret line="33" column="92" lean-forward="false" selection-start-line="33" selection-start-column="92" selection-end-line="33" selection-end-column="92" />
+        <state relative-caret-position="136">
+          <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="9" selection-end-column="26" />
+          <folding>
+            <element signature="e#24#39#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/practice1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="833">
+          <caret line="49" column="18" lean-forward="true" selection-start-line="35" selection-start-column="0" selection-end-line="49" selection-end-column="18" />
+          <folding>
+            <element signature="e#46#56#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Python27/Lib/re.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="137" column="36" lean-forward="true" selection-start-line="137" selection-start-column="36" selection-end-line="137" selection-end-column="36" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/linkCrawler.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding>
+            <element signature="e#88#107#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
