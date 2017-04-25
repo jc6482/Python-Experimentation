@@ -54,5 +54,3 @@ for x in range(args.width):
     for y in range(args.width):
         sys.stdout.write(printGrid[x][y])
     sys.stdout.write("\n")
-        
-

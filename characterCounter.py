@@ -7,7 +7,6 @@ from operator import itemgetter
 parser = argparse.ArgumentParser(description="Count occurrences of all characters in a string or file ")
 parser.add_argument("-D", default="", help="Data to count occurences in")
 parser.add_argument("-a", default=False, action="store_true", help="Sort in ascending")
-parser.add_argument("-d", default=False, action="store_true", help="Sort in descending")
 
 args = parser.parse_args()
 
@@ -29,8 +28,7 @@ for i in range(0,data.__len__()):
 
 if(args.a is True):
     myMap = sorted(myMap.items(),key=itemgetter(1),reverse=True)
-
-if(args.d is True):
+else:
     myMap = sorted(myMap.items(),key=itemgetter(1),reverse=False)
 
 for k,v in myMap:
