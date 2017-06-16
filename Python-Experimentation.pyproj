@@ -5,7 +5,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>{102dbe54-752a-4c80-aeee-0df2583dd403}</ProjectGuid>
     <ProjectHome />
-    <StartupFile>spiral.py</StartupFile>
+    <StartupFile>imageComparer\imageComparer.py</StartupFile>
     <SearchPath />
     <WorkingDirectory>.</WorkingDirectory>
     <OutputPath>.</OutputPath>
@@ -21,10 +21,10 @@
     <PtvsTargetsFile>$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets</PtvsTargetsFile>
   </PropertyGroup>
   <ItemGroup>
-    <Content Include="body1.txt" />
+    <Content Include="markovChain\body1.txt" />
     <Content Include="encryptedMessage.txt" />
-    <Content Include="Images\eyBossCat.jpg" />
-    <Content Include="Images\eyBossCat1.jpg" />
+    <Content Include="imageComparer\Images\eyBossCat.jpg" />
+    <Content Include="imageComparer\Images\eyBossCat1.jpg" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="basicNeuralNetwork.py" />
@@ -32,9 +32,12 @@
     <Compile Include="characterCounter.py" />
     <Compile Include="ddLevelCalculator.py" />
     <Compile Include="dirtyWordDay.py" />
+    <Compile Include="imageComparer\imageComparer.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="ircListener.py" />
     <Compile Include="linkCrawler.py" />
-    <Compile Include="markovChain.py" />
+    <Compile Include="markovChain\markovChain.py" />
     <Compile Include="portScanner.py" />
     <Compile Include="practice1.py" />
     <Compile Include="RockPaperScissors.py" />
@@ -43,7 +46,9 @@
     <Compile Include="virusStudy\replication.py" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Images" />
+    <Folder Include="imageComparer\Images\" />
+    <Folder Include="imageComparer\" />
+    <Folder Include="markovChain\" />
     <Folder Include="virusStudy" />
   </ItemGroup>
   <Import Project="$(PtvsTargetsFile)" Condition="Exists($(PtvsTargetsFile))" />
