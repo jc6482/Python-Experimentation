@@ -9,6 +9,9 @@ parser.add_argument("-host", help="Specify a host", default="www.google.com")
 
 args = parser.parse_args()
 
+if args.host == "" or not args.host.startswith('http://'):
+    print "Format of host is corrupt or needs http:// at the begginning"
+    exit()
 
 def remove_html_markup(s):
     out = re.findall("src=\"(.*?)\"",s)
@@ -16,7 +19,6 @@ def remove_html_markup(s):
 
 try:
     response = urlopen(Request(args.host))
-
     pprint(remove_html_markup(response.read()))
 except URLError, e:
     print "An error has occured, check the URL?", e
