@@ -5,7 +5,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>{102dbe54-752a-4c80-aeee-0df2583dd403}</ProjectGuid>
     <ProjectHome />
-    <StartupFile>imageComparer\imageComparer.py</StartupFile>
+    <StartupFile>basicNeuralNetwork2.py</StartupFile>
     <SearchPath />
     <WorkingDirectory>.</WorkingDirectory>
     <OutputPath>.</OutputPath>
@@ -28,6 +28,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="basicNeuralNetwork.py" />
+    <Compile Include="basicNeuralNetwork2.py" />
     <Compile Include="basicSteganography.py" />
     <Compile Include="characterCounter.py" />
     <Compile Include="ddLevelCalculator.py" />
